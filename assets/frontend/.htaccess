@@ -1,0 +1,5 @@
+RewriteEngine on
+order allow,deny
+<Files ~ "\.(js|css|gif|jpg|jpeg|png|ico|ttf|eot|svg|woff|otf|swf)$">
+   allow from all
+</Files>
