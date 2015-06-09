@@ -5,23 +5,21 @@ ob_start("ob_gzhandler");
 session_start();
 // Main Database
 $Config	= array(
-	"db_user"							=>	"refv4",
-	"db_pass"							=>	"kullu00700",
-	"db_name"							=>	"refv4",
+	"db_user"							=>	"root",
+	"db_pass"							=>	"",
+	"db_name"							=>	"framework",
 	"db_host"							=>	"localhost",
 	"db_pfix"							=>	"",
-	"site_name"							=>	"Referaly",
-	"site_domain"						=>	"ref-v4.etlabs.in",
-	"site_url"							=>	"http://ref-v4.etlabs.in",
-	"site_title"						=>	"Referaly",
+	"site_name"							=>	"Untitled",
+	"site_domain"						=>	"localhost",
+	"site_url"							=>	"http://localhost",
+	"site_title"						=>	"Untitled",
 	"site_description"					=>	"",
 	"upload_folder"						=>	$_SERVER['DOCUMENT_ROOT']."files",
-	"appid"								=>	"515293141939627",
-	"secret"							=>	"542d8cb8eeed1943856bc3e8e6447006",
-	"admin_email"						=>	"kuldeep@etlabs.in",
-	"admin_email_pass"					=>	"T5wbZuL7z4X",
+	"admin_email"						=>	"you@example.com",
+	"admin_email_pass"					=>	"XXXXX",
 	"site_template"						=>	"default",
-	"module_dir"						=>	"/home/admin/refv4module/"
+	"module_dir"						=>	"modules/"
 );
 date_default_timezone_set("Asia/Kolkata");
 ?>
